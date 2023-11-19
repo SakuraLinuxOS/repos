@@ -29,9 +29,10 @@ mkdir -m 755 \
     "$1/var/lib" \
     "$1/var/lib/misc" \
     "$1/var/empty" \
+    "$1/var/spool"
     # This is not needed in a dinit system commented for future use
     #"$1/var/service" \
-    "$1/var/spool"
+   
 
 mkdir -m 555 \
     "$1/proc" \
